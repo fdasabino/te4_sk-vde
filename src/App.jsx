@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./components/counter";
 
 const App = () => {
   return (
@@ -12,6 +13,9 @@ const App = () => {
         <li>useReducer</li>
         <li>useRef</li>
       </ul>
+      <hr />
+
+      <Counter />
     </div>
   );
 };
